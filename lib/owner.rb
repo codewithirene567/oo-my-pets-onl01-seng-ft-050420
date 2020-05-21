@@ -62,8 +62,8 @@ class Owner
   def sell_pets
     #binding.pry
     self.cats.each do |list_of_cats|
-      cats.owner = (" ")
-    cat.mood = 'nervous'
+      list_of_cats.owner = (" ")
+    list_of_cats.mood = 'nervous'
   end
 end
   
