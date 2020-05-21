@@ -60,7 +60,9 @@ class Owner
   end
   
   def sell_pets
-    cats.dogs.each do |pets|
+    pets = []
+    pets << {dogs, cats}
+    pets.each do |pets|
       cats.dogs.clear
     dog.mood = 'nervous'
     cat.mood = 'nervous'
