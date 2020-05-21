@@ -73,6 +73,10 @@ class Owner
     list_of_dogs.mood = 'nervous'
 end
 end
+
+def list_pets
+  @@all = "I have #{@"
+end
   
     #object = Owner.new("Irene")
 #Dog.new("lucky", object)
