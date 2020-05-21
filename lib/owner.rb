@@ -66,6 +66,7 @@ class Owner
       list_of_cats.owner = (" ")
     list_of_cats.mood = 'nervous'
   end
+  
 end
   
     #object = Owner.new("Irene")
