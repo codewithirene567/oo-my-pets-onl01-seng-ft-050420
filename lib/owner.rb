@@ -65,6 +65,7 @@ class Owner
     dog.mood = 'nervous'
     cat.mood = 'nervous'
   end
+end
   
     #object = Owner.new("Irene")
 #Dog.new("lucky", object)
