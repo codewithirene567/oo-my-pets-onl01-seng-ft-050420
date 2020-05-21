@@ -66,7 +66,11 @@ class Owner
       list_of_cats.owner = (" ")
     list_of_cats.mood = 'nervous'
   end
-  
+    #binding.pry
+    self.dogs.each do |list_of_dogs|
+      #binding.pry
+      list_of_dogs.owner = (" ")
+    list_of_dogs.mood = 'nervous'
 end
   
     #object = Owner.new("Irene")
