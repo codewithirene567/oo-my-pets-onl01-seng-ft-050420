@@ -61,7 +61,8 @@ class Owner
   
   def sell_pets
     @@all.clear
-    dog.mood = 'nervous'
+    dogs.mood = 'nervous'
+    cat.mood = 'nervous'
   end
   
     #object = Owner.new("Irene")
