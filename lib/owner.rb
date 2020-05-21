@@ -60,7 +60,8 @@ class Owner
   end
   
   def sell_pets
-    @
+    @@all.clear
+    dog.mood = 'nervous'
   end
   
     #object = Owner.new("Irene")
