@@ -63,7 +63,6 @@ class Owner
     binding.pry
     self.cats.each do |cats|
       cats.owner = (" ")
-      cats.clear
     cat.mood = 'nervous'
   end
 end
