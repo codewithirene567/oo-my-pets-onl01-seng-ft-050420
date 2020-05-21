@@ -60,7 +60,7 @@ class Owner
   end
   
   def sell_pets
-    dogs.cats.clear
+    dogs.case.clear
     dog.mood = 'nervous'
     cat.mood = 'nervous'
   end
